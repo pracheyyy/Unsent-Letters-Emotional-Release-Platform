@@ -87,32 +87,6 @@ Burn Letter → Delete from Database
 
 ---
 
-## 🗃️ Database Design
-
-### Table: users
-
-| Field    | Type     |
-| -------- | -------- |
-| id       | INT (PK) |
-| name     | VARCHAR  |
-| email    | VARCHAR  |
-| password | VARCHAR  |
-
----
-
-### Table: letters
-
-| Field       | Type      |
-| ----------- | --------- |
-| id          | INT (PK)  |
-| user_id     | INT (FK)  |
-| content     | TEXT      |
-| mood_before | VARCHAR   |
-| mood_after  | VARCHAR   |
-| created_at  | TIMESTAMP |
-
----
-
 ## ⚙️ Core Functionalities
 
 ### 1. User Authentication
@@ -133,59 +107,6 @@ Burn Letter → Delete from Database
 
 ---
 
-## 🚀 How to Run the Project
-
-### 🔧 Requirements
-
-* XAMPP / WAMP / LAMP
-* PHP 7+
-* MySQL
-
----
-
-### 📥 Setup Steps
-
-1. Clone the repository:
-
-```
-git clone https://github.com/your-username/unsent-letters.git
-```
-
-2. Move project folder to:
-
-```
-htdocs/
-```
-
-3. Start:
-
-* Apache
-* MySQL
-
-4. Import database:
-
-* Open phpMyAdmin
-* Create database: `unsent_letters`
-* Import provided `.sql` file
-
-5. Run in browser:
-
-```
-http://localhost/unsent-letters
-```
-
----
-
-## 🎨 Future Enhancements
-
-* 🌙 Dark mode UI
-* 📊 Mood analytics dashboard
-* 🔐 End-to-end encryption
-* 📱 Mobile responsiveness improvements
-* 🎙️ Voice-to-text letter writing
-
----
-
 ## 🎤 Use Case
 
 This platform is especially helpful for:
@@ -196,18 +117,6 @@ This platform is especially helpful for:
 
 ---
 
-## 🤝 Contribution
-
-Contributions are welcome!
-Feel free to fork this repository and submit pull requests.
-
----
-
-## 📜 License
-
-This project is open-source and available under the MIT License.
-
----
 
 ## 💙 Final Note
 
